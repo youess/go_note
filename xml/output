@@ -1,0 +1,17 @@
+test_xml_struct_Unmarshal.go输出内容
+
+config name: { config} 
+sys config app_port: 3200 project_name: xml_parse_example
+ 
+Topic:  test_topic
+Group:  visit_group_v1
+From:  latest
+Addrs:  [192.124.34.102:1000 192.124.34.103:1000 192.124.34.104:1000]
+ 
+Topic:  test_topic_2
+Group:  visit_group_v1
+From:  latest
+Addrs:  [192.124.34.202:1000 192.124.34.203:1000 192.124.34.204:1000]
+
+Refer to Here to Checkout more XML Export Problem:
+https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/07.1.md

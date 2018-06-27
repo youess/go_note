@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <sysconfig port="3200" project_name="xml_parse_example" />
+
+    <kcfg topic="test_topic" group="visit_group_v1" from="latest">
+        <addr>192.124.34.102:1000</addr>
+        <addr>192.124.34.103:1000</addr>
+        <addr>192.124.34.104:1000</addr>
+    </kcfg>
+
+    <kcfg topic="test_topic_2" group="visit_group_v1" from="latest">
+        <addr>192.124.34.202:1000</addr>
+        <addr>192.124.34.203:1000</addr>
+        <addr>192.124.34.204:1000</addr>
+    </kcfg>
+
+<!--
+
+    <ccfg>
+        <hcfg name="h1">
+            <addr>180.164.23.500:1001</addr>
+        </hcfg>
+    </ccfg>
+-->
+</config>
