@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func test_xml_decoder() {
 
 	configFile := "config.xml"
 	cf, err := os.Open(configFile)
