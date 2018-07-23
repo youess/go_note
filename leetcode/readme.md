@@ -8,4 +8,5 @@
 1011. 求一数组的索引和值构成坐标线段，任意两两线段组成的容器(可能一边长一边短），如何取得容器的最大面积. [解](./1011_container_most_water/main.go)
 1012. 求整数用罗马数字字母进行表示. 求解逻辑比较简单。[解](./1012_integer2roman)
 1013. 罗马数字转换成数字。[解](./1013_roman2integer)
+1014. 求最长的公共前缀。比较奇怪的是这种暴力求解的方法也挺快的。 [解](./1014_common_prefix)
 1707. 设计链表结构并实现几个函数。[解](./1707_design_linked_list/single/singlyLinkedListBasic.go)
