@@ -19,5 +19,13 @@ func main() {
     fmt.Printf("max int: %d\n", MaxInt)
     fmt.Printf("min int: %d\n", MinInt)
     fmt.Printf("max uint: %d\n", uint64(MaxUint))
+    /*
+    uint(0): 0
+    ^uint(0): 18446744073709551615
+    bits per word : 64
+    max int: 9223372036854775807
+    min int: -9223372036854775808
+    max uint: 18446744073709551615
+    */
 
 }
