@@ -1,6 +1,6 @@
 
 
-1000. 检查数据中两个数之和是否定于一个给定的数字，前提数组中只有唯一解。hint: hashMap, [解](./1000_two_sum/two_sum.go)
+1000. two-Sum,检查数据中两个数之和是否定于一个给定的数字，前提数组中只有唯一解。hint: hashMap, 或者双指针 [解](./1000_two_sum/two_sum.go)
 1001. 链表反序数字相加，考察遍历链表操作。[解](./1001_addTwoNum/main.go)
 1002. 求字符串中最长不重复的连续子串。考虑[i, j)是子串的开始结束范围，而用hashmap或者字符数组存储已经出现的字符位置，并更新重复字符的位置。[解](./1002_longestSubString/main.go)
 1003. 求两个整型数组中的中位数。[解](./1003_medianOfTwoArray/main.go)
@@ -9,4 +9,5 @@
 1012. 求整数用罗马数字字母进行表示. 求解逻辑比较简单。[解](./1012_integer2roman)
 1013. 罗马数字转换成数字。[解](./1013_roman2integer)
 1014. 求最长的公共前缀。比较奇怪的是这种暴力求解的方法也挺快的。 [解](./1014_common_prefix)
+1015. three Sum问题可以递归成解决two-Sum的问题, 这里唯一需要注意的是如果去除重复解。[解](./1015_three_sum/main.go)
 1707. 设计链表结构并实现几个函数。[解](./1707_design_linked_list/single/singlyLinkedListBasic.go)
