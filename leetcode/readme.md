@@ -11,4 +11,5 @@
 1014. 求最长的公共前缀。比较奇怪的是这种暴力求解的方法也挺快的。 [解](./1014_common_prefix)
 1015. three Sum问题可以递归成解决two-Sum的问题, 这里唯一需要注意的是如果去除重复解。[解](./1015_three_sum/main.go)
 1016. three sum closest离给定target最近的三个数之和，这个比上一体简单一点，都是排序+双指针。[解](./1016_three_sum_close/main.go)
+1017. 求解手机号码和字符串的组合。考察递归遍历[解](./1017_letter_comb_phone_num/main.go)
 1707. 设计链表结构并实现几个函数。[解](./1707_design_linked_list/single/singlyLinkedListBasic.go)
